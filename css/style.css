@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+
+}
+
+header{
+  background-color: #734A6C;
+  height: 100px;
+  margin: 0;
+}
+header h1{
+  margin: 0;
+  color: #fff;
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+}
+
+.list{
+  display: flex;
+  position: relative;
+  top: 40px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  position: relative;
+}
+li{
+  margin: 0 0 0 15px;
+}
+a{
+  color: #BFBFBF;
+  text-decoration: none;
+  font-size: 20px;
+}
