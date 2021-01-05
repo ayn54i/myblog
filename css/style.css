@@ -36,3 +36,34 @@ a{
   text-decoration: none;
   font-size: 20px;
 }
+
+.container{
+  margin: 40px;
+  color: #424244;
+}
+
+.main-header{
+  background-color: #E8E8EF;
+  margin-top: 40px;
+}
+
+.main-title{
+  color: #424244;
+  padding: 40px;
+}
+
+.btn1{
+  position: relative;
+  margin: 30px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #495773;
+  background: #B0B8CB;
+  transition: .4s;
+}
+.btn1:hover{
+  background: #495773;
+  color: white;
+}
