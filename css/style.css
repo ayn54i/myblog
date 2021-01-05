@@ -12,8 +12,14 @@ header h1{
   margin: 0;
   color: #fff;
   position: relative;
-  left: 30px;
-  font-size: 20px;
+  bottom: 10px;
+  left: 650px;
+  font-size: 35px;
+  font-family: 'HanziPen TC',sans-serif;
+}
+
+.main-title{
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
 }
 
 .list{
@@ -31,20 +37,26 @@ ul{
 li{
   margin: 0 0 0 15px;
 }
-a{
+
+.url-link a{
   color: #BFBFBF;
   text-decoration: none;
   font-size: 20px;
+  font-family: 'Andale Mono',sans-serif;
+  position: relative;
+  top: 10px;
+  left: 1000px;
 }
 
 .container{
   margin: 40px;
   color: #424244;
+  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+
 }
 
 .main-header{
   background-color: #E8E8EF;
-  margin-top: 40px;
 }
 
 .main-title{
@@ -66,4 +78,11 @@ a{
 .btn1:hover{
   background: #495773;
   color: white;
+}
+
+footer{
+  position: relative;
+  text-align: center;
+  color: #A5A5AA;
+  margin-top: 150px;
 }
