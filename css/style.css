@@ -1,6 +1,11 @@
+html{
+overflow-x: hidden;
+}
+*{
+  box-sizing: border-box;
+}
 body{
   margin: 0;
-
 }
 
 header{
@@ -17,17 +22,14 @@ header h1{
   font-size: 35px;
   font-family: 'HanziPen TC',sans-serif;
 }
-
 .main-title{
   font-family: 'TsukuBRdGothic-Regular',sans-serif;
 }
-
 .list{
   display: flex;
   position: relative;
   top: 40px;
 }
-
 ul{
   display: flex;
   list-style: none;
@@ -37,7 +39,6 @@ ul{
 li{
   margin: 0 0 0 15px;
 }
-
 .url-link a{
   color: #BFBFBF;
   text-decoration: none;
@@ -47,13 +48,13 @@ li{
   top: 10px;
   left: 1000px;
 }
-
 .container{
   margin: 40px;
   color: #424244;
   font-family: 'TsukuBRdGothic-Regular',sans-serif;
-
+  font-size: 20px;
 }
+
 
 .main-header{
   background-color: #E8E8EF;
@@ -85,4 +86,63 @@ footer{
   text-align: center;
   color: #A5A5AA;
   margin-top: 150px;
+}
+
+@media screen and (max-width: 375px){
+  html{
+  overflow-x: hidden;
+  }
+  body{
+    margin: 0;
+  }
+  header{
+    background-color: #734A6C;
+    height: 100px;
+    margin: 0;
+  }
+  header h1{
+    margin: 0;
+    color: #fff;
+    position: relative;
+    top: 3px;
+    left: 30px;
+    font-size: 25px;
+    font-family: 'HanziPen TC',sans-serif;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    position: relative;
+  }
+  li{
+    margin: 0 0 0 15px;
+  }
+  .url-link a{
+    color: #BFBFBF;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Andale Mono',sans-serif;
+    position: relative;
+    top: 14px;
+    left: 50px;
+  }
+  .container{
+    margin: 40px;
+    color: #424244;
+    font-family: 'TsukuBRdGothic-Regular',sans-serif;
+    font-size: 10px;
+  }
+  .main-title{
+    font-size: 10px;
+    font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  }
+  .container{
+    margin: 40px;
+    color: #424244;
+    font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  }
+  .post1 h2 p{
+    font-size: 10px;
+  }
 }
