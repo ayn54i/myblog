@@ -33,7 +33,6 @@ header h1{
   top: 40px;
 }
 ul{
-  display: flex;
   list-style: none;
   margin: 0;
   position: relative;
@@ -49,6 +48,7 @@ li{
   position: relative;
   top: 10px;
   left: 1000px;
+  margin-left: 30px;
 }
 .container{
   margin-left: 40px;
@@ -99,65 +99,7 @@ li{
   color: white;
 }
 
-/* ヘッダーのSNSボタン */
-.btn,a.btn,button.btn {
-  font-size: 15px;;
-  font-weight: 600;
-  line-height: 1.5;
-  position: relative;
-  bottom: 60px;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  letter-spacing: 0.1em;
-  color: #fff;
-  border-radius: 0.5rem;
-}
 
-a.btn-svg {
-  font-weight: 700;
-  line-height: 54px;
-
-  width: 204px;
-  height: 54px;
-  padding: 0;
-
-  cursor: pointer;
-  text-decoration: none;
-
-  background-color: transparent;
-}
-
-a.btn-svg svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-}
-
-a.btn-svg svg rect {
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
-
-  stroke: #000;
-  stroke-width: 2;
-  stroke-dasharray: 200px, 16px;
-  stroke-dashoffset: 70px;
-}
-
-a.btn-svg:hover svg rect {
-  stroke-dashoffset: 284px;
-}
-
-a.btn-svg span {
-  color: #fff;
-}
 
 /* フッター */
 footer{
@@ -189,7 +131,6 @@ footer{
     font-family: 'HanziPen TC',sans-serif;
   }
   ul{
-    display: flex;
     list-style: none;
     margin: 0;
     position: relative;
@@ -248,7 +189,6 @@ footer{
     left: 60px;
   }
   ul{
-    display: flex;
     list-style: none;
     margin: 0;
     position: relative;
@@ -265,7 +205,8 @@ footer{
     left: 70px;
   }
   .container{
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 20px;
     color: #424244;
     font-family: 'TsukuBRdGothic-Regular',sans-serif;
     font-size: 10px;
@@ -274,11 +215,7 @@ footer{
     font-size: 10px;
     font-family: 'TsukuBRdGothic-Regular',sans-serif;
   }
-  .container{
-    margin: 40px;
-    color: #424244;
-    font-family: 'TsukuBRdGothic-Regular',sans-serif;
-  }
+
   .post1 h2 p{
     font-size: 10px;
   }
