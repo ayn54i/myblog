@@ -24,7 +24,7 @@ header h1{
   bottom: 10px;
   left: 650px;
   font-size: 35px;
-  font-family: 'HanziPen TC',sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 .list{
   display: flex;
