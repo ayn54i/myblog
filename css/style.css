@@ -13,42 +13,28 @@ body{
 
 /* ヘッダー */
 header{
-  background-color: #734A6C;
+  background-color: #fff;
   height: 100px;
   margin: 0;
 }
 header h1{
   margin: 0;
-  color: #fff;
+  color: #696969;
   position: relative;
   bottom: 10px;
   left: 650px;
-  font-size: 35px;
-  font-family: 'Anton', sans-serif;
+  top: 5px;
+  font-size: 44px;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 .list{
   display: flex;
   position: relative;
   top: 40px;
 }
-.url-link a{
-  color: #BFBFBF;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: 'Andale Mono',sans-serif;
-  position: relative;
-  top: 10px;
-  left: 1000px;
-  margin-left: 30px;
-}
-ul{
-  list-style: none;
-  margin: 0;
-  position: relative;
-}
-li{
-  margin: 0 0 0 15px;
-}
+
+/* snsボタン */
+
 
 /* メイン */
 .main{
