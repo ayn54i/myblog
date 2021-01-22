@@ -19,13 +19,16 @@ header{
 }
 header h1{
   margin: 0;
-  color: #000;
+  color: #424244;
   position: relative;
   bottom: 10px;
   left: 600px;
   top: 5px;
   font-size: 44px;
   font-family: 'Montserrat Subrayada', sans-serif;
+}
+header img{
+
 }
 .list{
   display: flex;
@@ -46,13 +49,34 @@ header h1{
   display: flex;
 }
 .main-header{
-  background-color: #E8E8EF;
+  display: flex;
+  background-color: #f5f5f5;
+  height: 250px;
+  margin-top: 50px;
 }
-.main-title{
+.main-title img{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+.sub-title{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  font-family: yamamotoan-stdn, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #424244;
-  padding: 40px;
-  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+
 }
+.sub-title h1{
+  margin: 0;
+  font-size: 37px;
+}
+.sub-title p{
+  margin: 0;
+}
+
 .container{
   margin-left: 40px;
   margin-right: 20px;
