@@ -19,16 +19,14 @@ header{
 }
 header h1{
   margin: 0;
+  margin-left: 500px;
+  margin-right: 300px;
   color: #424244;
   position: relative;
   bottom: 10px;
-  left: 600px;
-  top: 5px;
+  top: 10px;
   font-size: 44px;
   font-family: 'Montserrat Subrayada', sans-serif;
-}
-header img{
-
 }
 .list{
   display: flex;
@@ -38,7 +36,7 @@ header img{
 .list img{
   position: relative;
   bottom: 10px;
-  left: 580px;
+  left: 500px;
 }
 
 /* snsボタン */
@@ -89,12 +87,10 @@ header img{
 }
 
 .post1{
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-top: 60px;
   height:   190px;
-}
-.post1 h2{
-
+  display: flex;
 }
 .post1 p{
   margin-left: 30px;
@@ -104,6 +100,14 @@ header img{
 .post1 a{
   position: relative;
   bottom: 60px;
+}
+.img{
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+
 }
 .container2{
   margin-left: 20px;
